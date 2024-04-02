@@ -1,0 +1,34 @@
+/tests/datasets/*
+/examples/datasets/*
+.idea/*
+.DS_Store
+*.pyc
+/tests/tmp_autokaggle-tmp-3/
+/examples/old/
+__pycache__/
+/tests/config/
+/.pytest_cache/
+._*
+test.py
+*.sh
+*.log.txt
+*.log
+_rp_benchmark_latest.py
+_rp_benchmark_10m.py
+search_1/
+/examples/example_datasets/
+/examples/auto_model/
+
+# MKdocs
+/docs/sources
+/docs/site
+
+# Local test scripts
+ctr_benchmark-gpu*.py
+examples/netflix.py
+examples/ctr_deepfm_test_criteo.py
+examples/ctr_deepfm_test_avazu.py
+examples/ctr_test_criteo.py
+
+# Others
+autorecsys/utils/config.py
